@@ -1,0 +1,256 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    
+
+}
+
+/* Navbar */
+
+.nav{
+    background-color: #629bb4;
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    
+}
+
+.nav_m{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 68.2px;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+.nav_com{
+    list-style-type: none;
+    font-size: 25px;
+    color: #fff1f1;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 180px;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+.nav_com:hover{
+    font-size: 28px;
+    transition: font-size 0.2s ease-in-out 0s;
+    cursor: pointer;
+    
+}
+
+/* Portfolio Main */
+
+.pf_m{
+    background-color: #c7dce6;
+    height: 730px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sec1{
+    height: 400px;
+    width: 600px;
+    margin-top: 190px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.ca{text-decoration: none;
+    font-size: 25px;
+    width: 20px;
+    list-style-type: none;
+    color: #fff1f1;
+}
+
+.ca:hover{
+    font-size: 27px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+/* Section 1 */
+
+.pf_n{
+font-size: 75px;
+font-weight: 1000;
+font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  color: #3c5e6d;
+  margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 300px;
+}
+
+.pf_d1 {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    width: 340px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: normal;
+  color: #1e2d33de;
+  font-weight: 700;
+}
+.pf_d2 {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    width: 340px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: normal;
+  color: #1e2d33de;
+  font-weight: 700;
+}
+
+.pf_d3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    width: 340px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: normal;
+  color: #1e2d33de;
+  font-weight: 700;
+}
+
+.pf_d4 {
+    margin-top: 1px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    width: 450px;
+    font-size: 36px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: normal;
+  color: #1e2d33de;
+  font-weight: 700;
+}
+
+
+
+
+kbd{
+    font-style: italic;
+}
+
+/* Section 2 */
+
+.sec2{
+    
+    height: 400px;
+    width: 400px;
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pf_lo{
+    margin-top: 8px;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border-radius: 50%;
+    animation-name: Nova;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+
+    
+
+}
+
+@keyframes Nova{
+    0%{border: 4px solid #3d7289;    }
+    25%{border: 4px solid  #063d54c4;    }
+    50%{border: 4px solid #629bb4;    }
+    100%{border: 4px solid #3c5e6d;    }
+}
+
+.pf_logo{
+    width: 282px;
+    height: 270px;
+    border: transparent;
+    border-radius: 50%;
+    background-image: url(cartoonize_WIN_20240203_23_11_53_Pro__1_-removebg-preview.png);
+    background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+
+
+
+.pf_ig{
+    margin-top: 15px;
+    width: 280px;
+    height: 35px;
+    background-color: #3c5e6d;
+    border: 2px solid #fff1f1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.ig_a{ text-decoration: none;
+    color: #fff1f1;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+}
+
+.pf_ig:hover{
+    border: 2px solid #3c5e6d;
+background-color: #fff1f1;
+color: #3c5e6d;
+transition-duration: 0.2s;
+}
+
+.pf_dc{
+    text-decoration: none;
+    margin-top: 15px;
+    width: 280px;
+    height: 35px;
+    background-color: #3c5e6d;
+    border: 2px solid #fff1f1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.pf_dc:hover{
+    border: 2px solid #3c5e6d;
+background-color: #fff1f1;
+color: #3c5e6d;
+transition-duration: 0.2s;
+}
+
+i{
+    text-decoration: none;
+}
